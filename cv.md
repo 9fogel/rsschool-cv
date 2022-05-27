@@ -2,14 +2,14 @@
 
 Age: 31  
 Location: Minsk, Belarus  
--
+
 
 ## CONTACTS
 Email: fogel_ver@mail.ru  
 Skype: vera_fogelson  
 GitHub: [9fogel](https://github.com/9fogel)  
 www.linkedin.com/in/vera-fogelson/  
--
+
 
 ## ABOUT
 
@@ -29,13 +29,7 @@ While I’m on maternity leave, I aim at improving my knowledge in HTML, CSS, JS
 
 * Figma
 
-* **Additionally:** UX/UI design basics 
-(Wireframing and prototyping,  
-Data visualization skills
-Visual and UI design
-Design systems
-UI patterns
-User flows)
+* **Additionally:** UX/UI design basics
 
 
 ## SOFT SKILLS 
@@ -118,5 +112,5 @@ let values = [10, 20, 4, 6, 11, 9, 125, 1, 8, 0, 3];
 
 ## FOREIGN LANGUAGES
 
-**English** - Advanced
-**German** - Intermediate
+**English** - Advanced  
+**German** - Intermediate  
