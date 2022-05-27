@@ -2,14 +2,14 @@
 
 Age: 31
 Location: Minsk, Belarus
----
+-
 
 ## CONTACTS
 
 Email: fogel_ver@mail.ru
 Skype: vera_fogelson
 www.linkedin.com/in/vera-fogelson/
----
+-
 
 ## ABOUT
 
@@ -46,7 +46,7 @@ User flows)
 * Presentation skills
 * Conflict-solving
 * Leadership
----
+-
 
 ## EDUCATION AND COURSES
 
@@ -67,6 +67,10 @@ Design Spot school
 BSEU, Minsk
 Economics and management in tourism
 
+## PROJECTS
+
+- [Foxgram] (https://9fogel.github.io/Foxgram/)
+- [CV project] (https://9fogel.github.io/rsschool-cv/cv)
 
 ## EXPERIENCE
 
