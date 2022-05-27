@@ -46,7 +46,7 @@ User flows)
 * Presentation skills
 * Conflict-solving
 * Leadership
--
+
 
 ## EDUCATION AND COURSES
 
