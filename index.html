@@ -11,7 +11,9 @@
 <body>
   <header class="header">
     <div class="container">
+      <button class="burger"></button>
       <nav class="navigation">
+        <button class="nav-close"></button>
         <ul class="nav-list">
           <li class="nav-item">
             <a class="nav-link" href="#about">About</a>
@@ -53,6 +55,7 @@
 
         </section>
         <section class="intro-section section-left">
+          <h2 class="section-title visually-hidden">Intro</h2>
           <img class="avatar responsive" src="./assets/img/avatar.jpg" alt="Vera Kirayonak avatar" width="250" height="250">
           <ul class="intro-list">
             <li><span class="bold-selection">Age:</span> 31</li>
@@ -110,7 +113,10 @@
           <section class="about section-right" id="about">
             <h2 class="section-title">About</h2>
             <p>
-              I’m a Junior Front-End Developer with a strong background in Finance and Tourism. I work hard, learn fast and always strive for excellence. Being the Resouse Manager in EPAM Finance dept., I’m highly experienced in leading the team, conducting interviews, overlooking and improving workflows. I'm also attentive to details and always try to go an extra mile.
+              I’m a Junior Front-End Developer with a strong background in Finance and Tourism. I work hard, learn fast and always strive for excellence.
+            </p>
+              <p>
+                Being the Resouse Manager in EPAM Finance dept., I’m highly experienced in leading the team, conducting interviews, overlooking and improving workflows. I'm also attentive to details and always try to go an extra mile.
             </p>
             <p>
               While I’m on maternity leave, I aim at improving my knowledge in HTML, CSS, JS, etc and gaining more Front-End Development practice.
@@ -119,25 +125,37 @@
           <section class="education-and-courses section-right" id="education-and-courses">
             <h2 class="section-title">Education and Courses</h2>
             <ul class="courses-list">
-              <p class="year">2022</p>
-              <li>
-                <a href="https://drive.google.com/file/d/1Dew0oXHAOWM3tiKgieYCcK_x88TleX67/view" target="_blank">ITVDN.com - JavaScript Starter</a>
+              <li class="year">
+                2022
+                <ul class="courses-list year-list">
+                  <li>
+                    <a href="https://drive.google.com/file/d/1Dew0oXHAOWM3tiKgieYCcK_x88TleX67/view" target="_blank">ITVDN.com - JavaScript Starter</a>
+                  </li>
+                  <li>
+                    <a href="https://htmlacademy.ru/profile/id2090523" target="_blank">HtmlAcademy</a>
+                  </li>
+                  <li>
+                    <a href="https://www.sololearn.com/profile/18991045">Sololearn</a>
+                  </li>
+                  <li>
+                    <a href="https://rs.school/js-stage0/">Rs School - JavaScript/Front-end. Stage 0 (in progress)</a>
+                  </li>
+                </ul>
               </li>
-              <li>
-                <a href="https://htmlacademy.ru/profile/id2090523" target="_blank">HtmlAcademy</a>
+              <li class="year">
+                2020
+                <ul class="courses-list year-list">
+                  <li>
+                    <a href="https://drive.google.com/file/d/16E6SKaiMrjKzUd7-38b_v1pfCef9z9EK/view" target="_blank">Design Spot school - Interface Design Basics</a>
+                  </li>
+                </ul>
               </li>
-              <li>
-                <a href="https://www.sololearn.com/profile/18991045">Sololearn</a>
-                </li>
-              <li>
-                <a href="https://rs.school/js-stage0/">Rs School - JavaScript/Front-end. Stage 0 (in progress)</a>
+              <li class="year">
+                2009 - 2014
+                <ul class="courses-list year-list">
+                  <li>BSEU, Minsk - Economics and management in tourism</li>
+                </ul>
               </li>
-              <p class="year">2020</p>
-              <li>
-                <a href="https://drive.google.com/file/d/16E6SKaiMrjKzUd7-38b_v1pfCef9z9EK/view" target="_blank">Design Spot school - Interface Design Basics</a>
-              </li>
-              <p class="year">2009 - 2014</p>
-              <li>BSEU, Minsk - Economics and management in tourism</li>
             </ul>
           </section>
           <section class="projects section-right" id="projects">
@@ -154,13 +172,17 @@
           <section class="experience section-right" id="experience">
             <h2 class="section-title">Experience</h2>
             <ul class="experience-list">
-              <li>
-                <p class="year">2016 - till now</p>
-                <p>EPAM Belarus, Lead Expense Analyst</p>
+              <li class="year">
+                2016 - till now
+                  <ul class="experience-list year-list">
+                    <li>EPAM Belarus, Lead Expense Analyst</li>
+                  </ul>
               </li>
-              <li>
-                <p class="year">2013 - 2016</p>
-                <p>AVIS Belarus, Key Account Manager</p>
+              <li class="year">
+                2013 - 2016
+                <ul class="experience-list year-list">
+                  <li>AVIS Belarus, Key Account Manager</li>
+                </ul>
               </li>
             </ul>
           </section>
@@ -236,9 +258,8 @@ console.log(`Sum of all array elements is ${sum}`);
           </a>
         </li>
       </ul>
-      
     </div>
-
   </footer>
+  <script src="script.js"></script>
 </body>
 </html>
