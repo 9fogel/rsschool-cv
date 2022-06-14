@@ -79,7 +79,7 @@ button:hover {
   justify-content: flex-end;
   align-items: center;
   height: 50px;
-  padding-right: 40px;
+  padding-right: 62px;
   list-style: none;
 }
 
@@ -309,6 +309,7 @@ code {
 
 
 @media (max-width: 1240px) {
+
   .right-column {
     margin-top: 100px;
     margin-left: 36px;
@@ -327,6 +328,7 @@ code {
 
 
 @media (max-width: 1024px) {
+
   .burger {
     display: block;
     position: absolute;
@@ -398,6 +400,11 @@ code {
   .right-column1,
   .right-column2 {
     width: 100%;
+    padding-right: 12px;
+  }
+
+  .right-column2 {
+    padding-bottom: 24px;
   }
 
   .section-left,
@@ -419,7 +426,9 @@ code {
   }
 }
 
+
 @media (max-width: 768px) {
+
   .burger {
     right: 4px;
   }
@@ -441,7 +450,9 @@ code {
   }
 }
 
+
 @media (max-width: 568px) {
+
   .navigation {
     background-color: #ffffff;
   }
@@ -457,9 +468,13 @@ code {
   }
 
   .right-column {
-    margin-top: 0px;
-    margin-left: 24px;
-    margin-bottom: 36px;
+    padding: 0;
+    margin: 0;
+  }
+
+  .right-column1,
+  .right-column2 {
+    padding-left: 24px;
   }
 
   .main-title {
@@ -485,6 +500,7 @@ code {
     background-color: #eeeef0;
   }
 }
+
 
 @media (max-width: 450px) {
   .main-title {
