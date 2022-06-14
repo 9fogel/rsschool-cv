@@ -257,6 +257,11 @@ button:hover {
   list-style-position: inside;
 }
 
+.main-link:hover {
+  color: #fca902;
+  transition: ease-in-out .3s;
+}
+
 .projects-list {
   padding-left: 16px;
   list-style-type: disc;
@@ -301,6 +306,11 @@ code {
   display: flex;
   align-items: center;
   line-height: 40px;
+  transition: ease-in-out .3s;
+}
+
+.footer-link:hover {
+  color: #000000;
 }
 
 .footer-github-name {
